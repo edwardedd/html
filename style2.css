@@ -1,0 +1,30 @@
+.body {
+	font-size: 16px;
+	font-family: 'Open Sans';
+}
+.container {
+	display: flex;
+ 	justify-content: space-between;
+	align-items: stretch ;
+  flex-direction: row;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 600px;
+	background-color: yellow;
+}
+
+.item {
+	background-color: aqua;
+	border: 1px solid red;
+	/*flex-basis: 100px;*/
+	flex-grow: 1;
+	margin: 10px;
+}
+@media (max-width: 500px) {
+	.container {
+		flex-direction: column ;
+	}
+}
+/*.grow_2 {
+	flex-grow: 2;
+}*/

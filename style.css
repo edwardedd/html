@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+p {line-height: 0;}
+.container {
+	width:100%;
+	
+}
+
+.header {
+	display: flex;
+}
+.header_el {
+	height: 80px;
+	width: 20%;
+	font-family: 'Roboto',san-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 15px 5px 10px 5px;
+	background: linear-gradient(#7C92B6, #627997);
+	border-style: solid;
+	border-color: #718AAB #5F7493 #5F7493 #718AAB;
+}
+.header_el p {
+	color: red;
+	font-size: 25px;
+}
+.head_1 {
+	background: #99B3D1;
+}
+.bg-image {
+	width: 100%;
+}
+.time {
+	display: flex;
+	height: 100px;
+	font-family: 'Roboto',san-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.clock {
+	background: linear-gradient(#7D91B7, #59708B);
+	width: 34%;
+	border-style: solid;
+	border-color: #718AAB #5F7493 #5F7493 #718AAB;
+}
+.clock p {
+	font-size: 48px;
+}
+.graphic {
+	width: 22%;
+	background: linear-gradient(#596F8B, #677F9F);
+	border-style: solid;
+	border-color: #718AAB #5F7493 #5F7493 #718AAB;
+}
+.timer {
+	width: 22%;
+	background: linear-gradient(#596F8B, #677F9F);
+	border-style: solid;
+	border-color: #718AAB #5F7493 #5F7493 #718AAB;
+}
+.target{
+	width: 22%;
+	background: linear-gradient(#596F8B, #677F9F);
+	border-style: solid;
+	border-color: #718AAB #5F7493 #5F7493 #718AAB;
+}
+.alarm {
+	height: 100px;
+	background-color: #677F9E;
+	display: flex;
+}
+
+
+.footer {
+	height: 5vh;
+	background: #849DC3;
+}
+.first {
+	width: 30%;
+	background: #A3ECF1;
+}
