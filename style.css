@@ -31,7 +31,7 @@ p {line-height: 0;}
 }
 .time {
 	display: flex;
-	height: 100px;
+	height: 160px;
 	font-family: 'Roboto',san-serif;
 	font-size: 12px;
 	color: #FFF;
@@ -65,7 +65,7 @@ p {line-height: 0;}
 	border-color: #718AAB #5F7493 #5F7493 #718AAB;
 }
 .alarm {
-	height: 100px;
+	height: 160px;
 	background-color: #677F9E;
 	display: flex;
 	justify-content: space-between;
@@ -87,11 +87,11 @@ p {line-height: 0;}
 }
 .bl_1 {
 	border-bottom: 2px solid #5F7493 ;
-	height: 50px;
+	height: 90px;
 	background: linear-gradient(#677F9F,#596F8B);
 }
 .bl_2 {
-	height: 50px;
+	height: 90px;
 	background: linear-gradient(#677F9F,#596F8B);
 }
 
@@ -100,6 +100,7 @@ p {line-height: 0;}
 }
 
 .shedule {
+	height: 80px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #677F9E;
@@ -110,10 +111,11 @@ p {line-height: 0;}
 	border-color: #718AAB #5F7493 #5F7493 #718AAB;
 }
 .scroll {
-	height: 100px;
+	height: 250px;
 	background-color: #677F9E;
 }
 .rendezvous {
+	height: 80px;
 	display:flex;
 	background: #99B3D1;
 	font-family: 'Roboto',san-serif;
@@ -133,14 +135,19 @@ p {line-height: 0;}
 
 .table_row {
 	display: flex;
+
 }
 .row {
+	height: 45px;
 	width: 10%;
 	border-right: 2px solid #5F7493 ;
 	border-bottom:2px solid #5F7493;
 	background-color: #677F9E;
 	font-family: 'Roboto',san-serif;
 	font-style: 16px
+	
+}
+.row_1, .row_2, .row_3, .row_4, .row_5, .row_6 {
 	color: white;
 }
 
